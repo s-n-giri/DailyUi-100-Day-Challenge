@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("bg.jpg");
+    font-family: cursive;
+}
+
+h3{
+    padding: 5%;
+    text-decoration: underline;
+}
+
+h5{
+    position: relative;
+}
+
+h5::before{
+    content: "";
+    background: black;
+    display: block;
+    position: absolute;
+    width: 100px;
+    height: 2px;
+    top: 50%;
+    left: 20%;
+}
+
+h5::after{
+    content: "";
+    background: black;
+    display: block;
+    position: absolute;
+    width: 100px;
+    height: 2px;
+    top: 50%;
+    right: 20%;
+
+}
+
+.main{
+    height: 500px;
+    text-align: center;
+    margin: 5% 33% 5% 33%;
+    padding: 1px 0 0 0;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.textbox{
+    width: 70%;
+    margin: 0px 0px 20px 0px;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: cursive;
+}
+
+.btn{
+    border: none;
+    cursor: pointer;
+    width: 40%;
+    margin: 20px;
+    padding: 10px;
+    background-color: #34d952;
+    border-radius: 15px;
+    color: black;
+    font-weight: 700;
+    font-family: cursive;
+}
+
+.btn:hover{
+    color: #fff;
+    background-color: #1c5e28;
+
+}
+
+.fa-brands{
+    margin: 10px 10px;
+}
