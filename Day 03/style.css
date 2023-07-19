@@ -1,0 +1,95 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url("image.png");
+}
+
+
+
+.logo{
+    display: inline-block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.fa-user-graduate{
+    padding: 5px;
+}
+
+.logo{
+    cursor: pointer;
+}
+
+.logo:hover{
+    color: red;
+}
+
+.left{
+    display: inline-block;
+    margin-left: 30px;
+    padding: 3px;
+}
+
+.mid{
+    display: inline-block;
+    margin-left: 25%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.right{
+    display: inline-block;
+}
+
+.call-button{
+    font-family: cursive;
+    background-color: #0a7aa3;
+    border: none;
+    border-radius: 3px;
+    height: 40px;
+    width: 90px;
+    color: white;
+    margin: 0 0 15px 250px;
+    cursor: pointer;
+}
+
+.fa-phone{
+    padding-right: 6px;
+}
+
+.call-button:hover{
+    background-color: #015979;
+    color: orange;
+}
+
+.navbar{
+    display: inline-block;
+}
+
+.navbar li{
+    display: inline-block;
+}
+
+.navbar li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    padding: 15px;
+}
+
+.navbar a:hover{
+    color: black;
+    text-decoration:overline;
+}
+
+.moto{
+    font-family: cursive;
+    color: #fff;
+    width: 50%;
+    margin: 10% 0 0 45%;
+    text-align: right;
+}
+
+.moto-details_L1, .moto-details_L2, .moto-details_L3{
+    margin-left: 25px;
+    color:black;
+    text-align: center;
+}
