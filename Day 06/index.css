@@ -1,0 +1,111 @@
+body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-image: url(images/background.png);
+    color: #fff;
+}
+
+.main{
+    background: #ee6d64;
+    border: 2px solid grey;
+    border-radius: 20px;
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    text-align: center;
+}
+
+
+.profile-img{
+    display: block;
+    width: 20%;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    border: 5px solid #fff;
+}
+
+h3{
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    margin-bottom: 0;
+    font-size: 25px;
+}
+
+.about{
+    font-size:x-small;
+}
+
+.about, .social-icons{
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0%;
+
+}
+
+.fa-brands{
+    padding: 0 15px 0 15px;
+    margin-top: 10%;
+    cursor: pointer;
+}
+
+.fa-facebook{
+    color: #3b5998;
+}
+
+.fa-instagram{
+    color:#d62976;
+}
+
+.fa-twitter{
+    color: #00acee;
+}
+
+.fa-linkedin{
+    color: #0A66C2;
+    
+}
+
+.bottom{
+    background: #fff;
+    color: #999;
+    padding: 60px 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 70px;
+    border-radius: 20px;
+    text-align: center;
+
+}
+
+.bottom > p{
+    padding-top: 20px;
+}
+
+.bottom-img{
+    width: 15px;
+    cursor:pointer;
+    margin-top: 15px;
+}
+
+button{
+    background: #fff;
+    color: #ff574a;
+    border: none;
+    outline: none;
+    box-shadow: 0 5px 10px rgba(244, 67, 54, 0.5);
+    padding: 15px 60px;
+    cursor: pointer;
+    border-radius: 30px;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+
