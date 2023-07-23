@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Comic Neue', cursive;
+}
+
+.container {
+    background: wheat;
+    display: flex;
+    justify-content: center;
+}
+
+.heading-box {
+    background-color: whitesmoke;
+    padding: 40px 90px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: black;
+    position: relative;
+    border-radius: 20px;
+
+}
+
+.arrow-icon {
+    width: 25px;
+    position: absolute;
+    left: 30px;
+    top: 40px;
+    cursor: pointer;
+}
+
+
+.menu-icon {
+    width: 25px;
+    position: absolute;
+    right: 30px;
+    top: 35px;
+    cursor: pointer;
+}
+
+.settings {
+    position: absolute;
+    left: 50px;
+    top: 80px;
+}
+
+.profile-pic {
+    width: 50px;
+    border-radius: 50%;
+    border: 3px solid black;
+    margin-top: 100px;
+    margin-left: -50px;
+}
+
+.name {
+    margin-top: -45px;
+    margin-left: 20px;
+    cursor: pointer;
+
+}
+
+.name-id {
+    margin-left: 20px;
+    font-size: smaller;
+    cursor: pointer;
+}
+
+ul{
+    margin-top: 30px;
+    margin-left: -40px;
+    list-style: none;
+    font-weight: lighter;
+    cursor: pointer;
+}
+
+li{
+    padding-top: 20px;
+}
+
+li:hover{
+    color:burlywood;
+    border-bottom: 1px;
+}
+ 
+.fa-solid{
+    padding-right: 10px;
+}
+
+hr{
+    width: 150%;
+    border: 1px solid;
+    margin-right: -30px;
+}
