@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+
+}
+
+
+.container {
+    background-color: aquamarine;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.success-box, .failed-box {
+    width: 300px;
+    border: 2px solid;
+    border-radius: 20px;
+    padding: 25px 35px;
+    text-align: center;
+    margin: 5px;
+    background-color: #fff;
+}
+
+.success-img, .failed-img {
+    height: 200px;
+    width: 200px;
+}
+
+h1 {
+    color: #313b6e;
+}
+
+p {
+    margin: 10px;
+    padding: 5px;
+    color: #313b6e;
+    font-size: small;
+}
+
+.btn {
+    background: #90EE90;
+    color: #fff;
+    border: none;
+    outline: none;
+    box-shadow: 0 5px 10px rgba(244, 67, 54, 0.5);
+    padding: 12px 60px;
+    cursor: pointer;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 15px;
+    margin-top: 50px;
+}
+
+.failed-btn{
+    background-color: #ff5c6d;
+}
+
+.btn-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background-color: bisque;
+}
+
+.success, .fail{
+    background-color: #313b6e;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    font-size: 15px;
+    padding: 12px 20px;
+    margin: 5px;
+}
