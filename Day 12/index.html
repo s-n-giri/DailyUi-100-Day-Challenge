@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Shop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab:wght@600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/86a59c7f61.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="nav-container">
+        <nav>
+            <div class="left">
+                <h1 class="logo"><i class="fa-solid fa-radio"></i>Sho&#43004;Per</h1>
+            </div>
+            <div class="right">
+                <ul class="navbar">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">Promotion</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li>
+                        <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa-solid fa-bag-shopping"></i></a>
+                        </i>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa-solid fa-user"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div class="item-info">
+        <div class="gallery-wrap">
+            <img src="images/back.png" id="backbtn">
+            <div class="gallery">
+                <div>
+                    <span>
+                        <img src="images/1.png">
+                    </span>
+                </div>
+                <div>
+                    <span>
+                        <img src="images/2.png">
+                    </span>
+                </div>
+                <div>
+                    <span>
+                        <img src="images/3.png">
+                    </span>
+                </div>
+                <div>
+                    <span>
+                        <img src="images/4.png">
+                    </span>
+                </div>
+            </div>
+            <img src="images/next.png" id="nextbtn">
+        </div>
+        <div class="item-detail">
+            <h1 class="product-name">Guitar - GD1908457</h1>
+            <span class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+            </span>
+            <hr>
+            <p class="product-desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum similique repellat autem quaerat,
+                perferendis exercitationem cupiditate a quos eos! Magni commodi perspiciatis illum nesciunt! Nam
+                repellat inventore pariatur culpa similique.
+            </p>
+            <label for="guitar">Choose a color:</label>
+            <select name="guitar">
+                <option value="brown">Brown</option>
+                <option value="Grey">Grey</option>
+                <option value="pink">Pink</option>
+                <option value="olive">Olive</option>
+            </select>
+            <h1 class="price">&#8377 31999/-</h1>
+            <button type="button" class="btn">Add to cart</button>
+            <button type="button" class="btn">Save for later</button>
+            <p><i class="fa-regular fa-heart"></i>Love this product</p>
+            <p><i class="fa-solid fa-cube"></i>Lorem ipsum dolor sit amet</p>
+        </div>
+    </div>
+
+
+
+    <script>
+
+        let scrollContainer = document.querySelector(".gallery");
+        let backbtn = document.getElementById("backbtn");
+        let nextbtn = document.getElementById("nextbtn");
+
+        nextbtn.addEventListener("click", () => {
+            scrollContainer.style.scrollBehavior = "smooth";
+            scrollContainer.scrollLeft += 200;
+        });
+
+        backbtn.addEventListener("click", () => {
+            scrollContainer.style.scrollBehavior = "smooth";
+            scrollContainer.scrollLeft -= 200;
+        });
+
+    </script>
+</body>
+
+</html>
