@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown Timer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="images/clock.png" class="logo-img">
+            <h1 class="name">FirstStep</h1>
+        </div>
+        <div class="main-content">
+            <h1 id="displayTime">00:00:00</h1>
+            <div class="buttons">
+                <img src="images/stop.png" onclick="watchStop()">
+                <img src="images/play.png" onclick="watchStart()">
+                <img src="images/restart.png" onclick="watchReset()">
+            </div>
+        </div>
+        <img src="images/jet.png" class="rocket">
+    </div>
+
+    <script>
+
+        let [sec, min, hrs] = [0,0,0];
+        let displayTime = document.getElementById("displayTime");
+        let timer = null;
+
+        function stopWatch(){
+            sec++;
+            if (sec == 60){
+                sec = 0;
+                min++;
+
+                if (min == 60){
+                    min = 0;
+                    hrs++;
+                }
+            }
+
+            let h = hrs < 10 ? "0" + hrs : hrs;
+            let m = min < 10 ? "0" + min : min;
+            let s = sec < 10 ? "0" + sec : sec;
+
+            displayTime.innerHTML = h + ":" + m + ":" + s;
+        }
+
+        function watchStart(){
+            if (timer != null){
+                clearInterval(timer);
+            }
+            timer = setInterval(stopWatch, 1000);
+        }
+
+        function watchStop(){
+            clearInterval(timer);
+        }
+
+        function watchReset(){
+            clearInterval(timer);
+            [sec, min, hrs] = [0, 0, 0];
+            displayTime.innerHTML = "00:00:00";
+        }
+
+
+    </script>
+
+
+</body>
+
+</html>
