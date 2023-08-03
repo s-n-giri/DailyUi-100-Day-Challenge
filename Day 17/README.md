@@ -1,1 +1,1 @@
-Day 17 : Payment Receipt
+Day 17 : Purchase Receipt
