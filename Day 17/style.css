@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    color: grey;
+    background-color: whitesmoke;
+}
+
+.container{
+    width: 30%;
+    margin: 15px auto 15px auto;
+    border: 2px solid grey;
+    border-radius: 5px;
+}
+
+.logo{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.logo-img{
+    height: 50px;
+    width: 50px;
+    padding-left: 50px;
+}
+
+.receipt{
+    margin-left: 25px;
+    margin-top: 25px;
+}
+
+.receipt > h3{
+    margin: 15px 0 20px 0;
+}
+
+hr{
+    width: 95%;
+    border: 1px solid grey;
+}
+
+.receipt > p{
+    margin: 5px 0 15px 0;
+    font-size: 13px;
+}
+
+.order-detail{
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.order-date{
+    padding: 15px;
+    margin-right: 5px;
+}
+
+.order-date > p, .order-no > p, .address > p, .payment > p{
+    margin-bottom: 7px;
+}
+
+.order-date > i, .order-no > i, .address > i, .payment > i{
+    font-size: 13px;
+}
+
+.order-no{
+    padding: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.address{
+    padding: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.payment{
+    padding: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.item1, .item2{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    margin: 15px;
+}
+
+.item-img > img {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.payment-details{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 15px 0 15px 0;
+}
+
+.payment-details-all{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+
+.col1 > p, .col2 > p{
+    margin: 5px;
+    padding: 2px;
+}
+
+.green{
+    color: #66FF00;
+}
+
+.total-hr{
+    width: 70%;
+    margin-left: -20px;
+}
+
+.footer{
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.thanks{
+    margin: 15px 0 15px 0;
+}
+
+.footer > p{
+    padding: 20px;
+    margin-left: 15px;
+}
+
+a{
+    color: blue;
+}
