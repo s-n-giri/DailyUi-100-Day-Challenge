@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.dashboard{
+    width: 20%;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 15px;
+    background: linear-gradient(#00aeef, #ed1c24);
+    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+}
+
+.top{
+    text-align: center;
+    padding: 20px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+nav .circle{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    background: #FFDDE1;
+    box-shadow: 0 5px 10px rgba(255, 26, 26, 0.22);
+}
+
+.top > h3, .top > p{
+    color: #ffffff;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 10px;
+    padding: 20px;
+}
+
+.card{
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    border-radius: 10px;
+
+}
+
+.home-temp{
+    background-color: #f9b338;
+    margin-bottom: 10px;
+    color: #ffffff;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+.card > img{
+    width: 20px;
+}
+
+.card > p{
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.card > i{
+    font-size: 10px;
+}
+
+.icon{
+    margin-top: 15px;
+}
+
+.front-door{
+    background-color: #5adbb5;
+    margin-bottom: 10px;
+    color: #111;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+.living-room-lights{
+    margin-bottom: 10px;
+    background-color: #3da4fb;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+}
+
+.living-room-fans{
+    background-color: #3da4fb;
+    margin-bottom: 10px;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+}
+
+.kitchen-lights{
+    background-color: #3da4fb;
+    margin-bottom: 10px;
+    text-align: center;
+    cursor: pointer;
+    color: #fff;
+}
+
+.camera{
+    background-color: #a881af;
+    margin-bottom: 10px;
+    text-align: center;
+    cursor: pointer;
+    color: #fff;
+}
+
+.master-bedroom-lights{
+    background-color: #ffffff;
+    margin-bottom: 10px;
+    text-align: center;
+    cursor: pointer;
+    color: #111;
+}
+
+.guestroom-lights{
+    background-color: #ffffff;
+    margin-bottom: 10px;
+    text-align: center;
+    cursor: pointer;
+    color: #111;
+
+}
