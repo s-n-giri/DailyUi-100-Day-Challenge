@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+.onboarding-container,
+.onboarding-container * {
+    box-sizing: border-box;
+}
+
+.onboarding-container .image img {
+    height: 250px;
+    width: 250px;
+    margin: 32px 28px;
+    border-radius: 10px;
+}
+
+.onboarding-overlay {
+    background: linear-gradient(#cee5ed, #82c9f3);
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+}
+
+.onboarding-container {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, calc(-50% + 25px));
+    box-shadow: 0 4px 40px -8px rgba(0, 0, 0, 1.0);
+    border-radius: 20px;
+}
+
+.onboarding-container .content {
+    background: #fff;
+    max-width: 300px;
+    padding-top: 24px;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.onboarding-container .steps {
+    display: flex;
+    width: 300%;
+    transition: all 400ms ease;
+}
+
+.onboarding-container h3 {
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 25px;
+    text-align: center;
+    padding: 0 32px;
+}
+
+.onboarding-container p {
+    padding: 0 32px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    text-align: justify;
+    color: gray;
+}
+
+.onboarding-container .next-btn {
+    width: 100%;
+    padding: 18px 32px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    background: #ff907f;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.onboarding-container .skip-btn {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #636363;
+}
+
+.onboarding-container .dots {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+.onboarding-container .dot {
+    width: 10px;
+    height: 10px;
+    background: #dbdbdb;
+    border-radius: 50%;
+    transition: all 400ms ease;
+}
+
+.onboarding-container .dot.active {
+    background: #222;
+}
