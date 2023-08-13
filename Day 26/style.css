@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:sans-serif;
+    color: #1864fe;
+    box-sizing: border-box;
+}
+
+.navbar{
+    padding: 25px;
+}
+
+.left{
+    display: inline-block;
+    margin: 15px 0 0 50px;
+}
+
+.right{
+    display: inline-block;
+    margin-left: 45%;
+}
+
+.right li{
+    list-style: none;
+    display: inline-block;
+}
+
+.right li a {
+    text-decoration: none;
+    margin: 15px;
+    font-weight: 600;
+    font-size: larger;
+}
+
+.right li a:hover{
+    text-decoration: overline;
+    color: chocolate;
+}
+
+.daily{
+    color: chocolate;
+}
+
+.ui{
+    color: brown;
+}
+
+.main{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.main-right{
+    margin-left: 10%;
+}
+
+
+.main-left{
+    margin: auto;
+    text-align: center;
+    width: 75%;
+    height: 50%;
+}
+
+.main-left h1{
+    margin: 15px;
+    font-weight:900;
+    font-size: 55px;
+}
+
+.main-left p{
+    line-height: 1.5;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.main-right img{
+    width: 500px;
+    height: 500px;
+}
+
+.input-box{
+    height: 40px;
+    width: 70%;
+    margin: 20px 0 15px 0;
+    border: 1px solid #1864fe;
+    border-radius: 5px;
+    padding: 10px;
+    color: #1864fe;
+}
+
+::placeholder{
+    color: #1864fe;
+}
+
+.input-box:focus{
+    border: 2px solid #1864ff;
+}
+
+.btn{
+    width: 70%;
+    height: 40px;
+    border-radius: 5px;
+    border: #1864ff;
+    background-color: #1864fe;
+    color: #fff;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.btn:hover{
+    background-color: #486eba;
+}
