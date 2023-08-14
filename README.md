@@ -4,4 +4,4 @@ Note: Day 05, Day 18, Day 20 Challenge is unavailable
 
 find my work on dribble : https://dribbble.com/ankur_giri
 
-my linkedin profil : https://www.linkedin.com/in/s-n-giri/
+my linkedin profile : https://www.linkedin.com/in/s-n-giri/
