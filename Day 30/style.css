@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #00faad;
+
+}
+
+.container h1{
+    color: #fff;
+    font-size: 32px;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.row{
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 25px;
+}
+
+.column{
+    background-color: #eaeaea;
+    padding: 10% 15%;
+    border-radius: 10px;
+    color: #111;
+    text-align: center;
+}
+
+
+.column p{
+    font-size: 22px;
+}
+
+.column h3{
+    font-size: 44px;
+    margin: 20px 0 40px;
+    font-weight: 700;
+    color: tomato;
+}
+
+.column h3 span{
+    font-size: 30px;
+    margin-right: -10px;
+}
+
+.column ul{
+    text-align: left;
+    margin: 20px 0;
+    list-style-type: none;
+}
+
+.column ul li{
+    margin: 15px 0;
+}
+
+.column ul li::before{
+    content: '\2713';
+    color: tomato;
+    font-weight: bold;
+    margin-right: 8px;
+}
+
+.column button{
+    width: 100%;
+    padding: 14px 0;
+    background-color: transparent;
+    color: #111;
+    cursor: pointer;
+    margin-top: 30px;
+    font-size: 15px;
+    border: 1px solid tomato;
+    border-radius: 5px;
+    transition: background 1s;
+}
+
+.column button:hover{
+    background-color: tomato;
+    color: #fff;
+}
