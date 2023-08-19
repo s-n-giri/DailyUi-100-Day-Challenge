@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: #bdc3c7;
+}
+
+.container{
+    border-radius: 10px;
+    padding: 20px;
+    width: 500px;
+    margin: auto;
+    margin-top: 20px;
+    background-color: whitesmoke;
+}
+
+.top{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.top > .left > h5{
+    color: gray;
+    margin: 10px 0;
+    font-weight: 600;
+}
+
+.fa-xmark{
+    background-color: #fff;
+    border-radius: 60%;
+    padding: 5px;
+    cursor: pointer;
+    color: gray;
+}
+
+
+.top > .right{
+    text-align: right;
+}
+
+.size-menu{
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: #fff;
+    border-radius: 10px;
+    border: none;
+    padding: 20px;
+    margin-top: 15px;
+}
+
+.size-menu > .left > ul{
+    list-style-image: url('images/veg.png');
+    padding-left: 10px;
+}
+
+.size-menu > .right{
+    text-align: right;
+    padding-right: 10px;
+}
+
+.size-menu li{
+    margin-bottom: 10px;
+}
+
+.size-menu > .right > ul{
+    list-style: none;
+}
+
+input[type=radio]{
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.place-order{
+    text-align: center;
+    margin: 20px 0;
+    padding: 10px;
+}
+
+.place-order button{
+    padding: 10px;
+    font-weight: 600;
+    background-color: #1ca672;
+    border: none;
+    color: #fff;
+    width: 70%;
+    border-radius: 10px;
+}
+
+h3{
+    margin-top: 20px;
+}
+
+hr{
+    margin-top: 10px;
+}
