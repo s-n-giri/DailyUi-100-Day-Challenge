@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Prompt', sans-serif;
+    font-family: 'Roboto Slab', serif;
+}
+
+body {
+    background: lightblue;
+}
+
+.container {
+    width: 600px;
+    height: 55vh;
+    margin: auto;
+    background-color: aquamarine;
+    margin-top: 100px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 16px 6px #111;
+}
+
+.header {
+    padding: 10px;
+    height: 15rem;
+    position: relative;
+    border-radius: 15px;
+}
+
+h1 {
+    position: absolute;
+    font-size: 3rem;
+    top: 4rem;
+    margin-left: 15rem;
+    line-height: 3rem;
+    letter-spacing: 2px;
+}
+
+.logo-img {
+    height: 20rem;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: scaleX(-1);
+}
+
+.uc-img{
+    position: absolute;
+    opacity: .2;
+    height: 35rem;
+}
+
+.offer {
+    position: absolute;
+    width: 250px;
+    margin-top: 8rem;
+    margin-left: 18rem;
+}
+
+li {
+    line-height: 35px;
+    font-weight: 600;
+}
+
+.bold{
+    font-weight: 600;
+    color: tomato;
+}
+
+.btn{
+    padding: 10px;
+    margin-top: 30px;
+    margin-left: 20px;
+    border: none;
+    border-radius: 10px;
+    width: 180px;
+    color: #fff;
+    background-color: #111;
+    cursor: pointer;
+}
