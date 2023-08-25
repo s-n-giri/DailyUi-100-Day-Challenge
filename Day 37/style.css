@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 30%;
+    margin: auto;
+    margin-top: 25px;
+    padding: 15px;
+    background-color: #515465;
+    color: #fff;
+    border-radius: 15px;
+}
+
+.fa-bars {
+    margin: 25px 0 15px 20px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+img{
+    width: 150px;
+    position: absolute;
+    margin-left: 250px;
+    /* margin-bottom: 25px; */
+}
+
+.temp {
+    margin: 20px 0 0 35px;
+    font-size: 50px;
+}
+
+.weather {
+    margin: 10px 0 0 35px;
+}
+
+.city {
+    margin: 25px 0 0 35px;
+}
+
+.temp-feel {
+    margin-top: 5px;
+    margin-left: 35px;
+}
+
+.tomorrow,
+.info {
+    background-color: #343440;
+    border-radius: 15px;
+    padding: 15px;
+    margin-top: 25px;
+}
+
+.details {
+    margin-bottom: 10px;
+}
+
+.time-laps {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.time > p{
+    font-size: 12px;
+}
+
+.fa-cloud {
+    margin: 10px 0;
+    font-size: 30px;
+}
+
+
+.time {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.tomorrow {
+    text-align: center;
+}
+
+.tomorrow>h5 {
+    margin-top: 15px;
+}
+
+.tomorrow>p {
+    margin-top: 5px;
+}
+
+.round {
+    margin-top: 15px;
+}
+
+.dot {
+    height: 7px;
+    width: 7px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.active{
+    height: 8px;
+    width: 8px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 5px;
+    cursor: pointer;
+}
